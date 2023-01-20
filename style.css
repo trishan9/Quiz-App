@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  background-color: #323330;
+  color: #f0db4f;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-heading {
+  margin-left: 10px;
+}
+
+.nav-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizDiv {
+  margin-top: 100px;
+  background-color: #323330;
+  color: white;
+  width: 60vw;
+  height: 55vh;
+  padding: 50px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  color: #f0db4f;
+  font-size: 1.2rem;
+}
+
+.answers {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.answer:hover {
+  cursor: pointer;
+  color: rgb(220, 220, 220);
+}
+
+.radios {
+  accent-color: #f0db4f;
+}
+
+.radios:hover {
+  cursor: pointer;
+}
+
+.ansDiv {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.submitBtn {
+  align-self: flex-end;
+  border: none;
+  padding: 10px 30px;
+  background-color: #f0db4f;
+  border-radius: 5px;
+  color: #323330;
+}
+
+.submitBtn:hover {
+  cursor: pointer;
+  background-color: #ede29d;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: #03c988;
+}
+
+.questionNum {
+  color: #f0db4f;
+  font-size: 0.8rem;
+  align-self: flex-end;
+}
+
+.point {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.score {
+  color: #03c988;
+}
+
+.wrong {
+  color: red;
+}
